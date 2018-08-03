@@ -41,6 +41,10 @@ namespace WingtipToys
 			//		Path = "~/Scripts/respond.min.js",
 			//		DebugPath = "~/Scripts/respond.js"
 			//	});
+
+			bundles.Add(new StyleBundle("~/Content/css").Include(
+				"~/Content/cerulean.bootstrap.css",
+				"~/Content/Site.css"));
 		}
 	}
 }
